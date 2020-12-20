@@ -13,6 +13,10 @@
 		3772F3C9255445F80027C236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3772F3C8255445F80027C236 /* Assets.xcassets */; };
 		3772F3CC255445F80027C236 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3772F3CB255445F80027C236 /* Preview Assets.xcassets */; };
 		3772F3CF255445F80027C236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3772F3CD255445F80027C236 /* LaunchScreen.storyboard */; };
+		3772F3DC255446F00027C236 /* BoutonLance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772F3DB255446F00027C236 /* BoutonLance.swift */; };
+		3772F3DF2554473F0027C236 /* MecaniqueDe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772F3DE2554473F0027C236 /* MecaniqueDe.swift */; };
+		378F021A258FEA58007B3130 /* JouerSon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378F0219258FEA58007B3130 /* JouerSon.swift */; };
+		378F021E258FEAF8007B3130 /* desquiroulent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 378F021D258FEAF8007B3130 /* desquiroulent.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3772F3CB255445F80027C236 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3772F3CE255445F80027C236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3772F3D0255445F80027C236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3772F3DB255446F00027C236 /* BoutonLance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutonLance.swift; sourceTree = "<group>"; };
+		3772F3DE2554473F0027C236 /* MecaniqueDe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MecaniqueDe.swift; sourceTree = "<group>"; };
+		378F0219258FEA58007B3130 /* JouerSon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JouerSon.swift; sourceTree = "<group>"; };
+		378F021D258FEAF8007B3130 /* desquiroulent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = desquiroulent.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				3772F3C2255445F70027C236 /* AppDelegate.swift */,
+				378F021C258FEADA007B3130 /* Son */,
 				3772F3C4255445F70027C236 /* SceneDelegate.swift */,
 				3772F3C6255445F70027C236 /* ContentView.swift */,
+				3772F3DB255446F00027C236 /* BoutonLance.swift */,
+				378F0219258FEA58007B3130 /* JouerSon.swift */,
+				3772F3DE2554473F0027C236 /* MecaniqueDe.swift */,
 				3772F3C8255445F80027C236 /* Assets.xcassets */,
 				3772F3CD255445F80027C236 /* LaunchScreen.storyboard */,
 				3772F3D0255445F80027C236 /* Info.plist */,
@@ -73,6 +85,14 @@
 				3772F3CB255445F80027C236 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		378F021C258FEADA007B3130 /* Son */ = {
+			isa = PBXGroup;
+			children = (
+				378F021D258FEAF8007B3130 /* desquiroulent.mp3 */,
+			);
+			path = Son;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +155,7 @@
 				3772F3CF255445F80027C236 /* LaunchScreen.storyboard in Resources */,
 				3772F3CC255445F80027C236 /* Preview Assets.xcassets in Resources */,
 				3772F3C9255445F80027C236 /* Assets.xcassets in Resources */,
+				378F021E258FEAF8007B3130 /* desquiroulent.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				378F021A258FEA58007B3130 /* JouerSon.swift in Sources */,
 				3772F3C3255445F70027C236 /* AppDelegate.swift in Sources */,
 				3772F3C5255445F70027C236 /* SceneDelegate.swift in Sources */,
+				3772F3DF2554473F0027C236 /* MecaniqueDe.swift in Sources */,
+				3772F3DC255446F00027C236 /* BoutonLance.swift in Sources */,
 				3772F3C7255445F70027C236 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
