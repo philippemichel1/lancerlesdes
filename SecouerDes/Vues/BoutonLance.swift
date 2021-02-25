@@ -18,12 +18,13 @@ struct BoutonLance: View {
         Button(action: {
             demarreLance()
         }, label: {
-            Text("Lancer")
+            Text("button")
         })
         .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         .foregroundColor(.black)
         .background(Color.yellow)
         .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+        
     }
     // lance les des
     func demarreLance() {
